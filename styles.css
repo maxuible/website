@@ -3,5 +3,14 @@ html{
 }
 
 .Nav{
+    font-size: x-large;
     text-align: center;
+}
+
+.PostLinks{
+    font-weight: bold;
+}
+
+.PostList{
+    font-size: large;
 }
