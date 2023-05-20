@@ -26,9 +26,9 @@ html{
     display: grid;
     grid-template-columns: minmax(auto, max-content) minmax(auto, max-content);
     justify-content: center;
-    column-gap: 1rem;
-    row-gap: 1rem;;
-    padding: 1rem;
+    column-gap: .5rem;
+    row-gap: .5rem;;
+    padding: .5rem;
 }
 
 .grid-item-contact{
