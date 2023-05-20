@@ -35,6 +35,7 @@ a{
 }
 
 .grid-item-contact{
+    padding: 1rem;
     font-size: larger;
     outline: .05rem;
     outline-style: solid;
