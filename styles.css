@@ -26,11 +26,12 @@ a{
 }
 
 .grid-contact {
+    justify-content: center;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns:max-content max-content;
     column-gap: 1rem;
     row-gap: 1rem;;
-    padding: 10px;
+    padding: 1rem;
 }
 
 .grid-item-contact{
