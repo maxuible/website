@@ -22,6 +22,7 @@ html{
 }
 
 .grid-contact {
+    
     display: grid;
     grid-template-columns: minmax(auto, max-content) minmax(auto, max-content);
     justify-content: center;
@@ -32,7 +33,6 @@ html{
 
 .grid-item-contact{
     padding: 1rem;
-    font-size: larger;
     outline: .05rem;
     outline-style: solid;
 }
