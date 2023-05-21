@@ -23,10 +23,6 @@
         <a href="../about.html">About</a>
     </div>
 
-
-
-
-
     <h1>Making This Website</h1>
 
     <h2>Steps</h2>
@@ -37,17 +33,16 @@
         <li>
             <a href="#Setting Up the VPS">Setting up the VPS </a>
         </li>
-        <li>
-            Domain Name
-        </li>
     </ol>
 
     <section id="Deciding the VPS">
         <h3>Deciding the VPS</h3>
+        <h4>Requirements</h4>
         <p>
             I like the idea of creating from "scratch" and simple HTML.
             Also I wanted cost to be low, as this is mostly a learning exercise. So I chose Oracle Cloud Free Tier.
         </p>
+        <h4>Caveats</h4>
         <p>
             I don't expect this site's traffic to require a lot of computing/bandwidth.
             In the future I might change hosting services, but with the experiences gained from setting up this website up changing will be easier.
@@ -56,12 +51,13 @@
 
     <section id="Setting Up the VPS">
         <h3>Setting Up the VPS</h3>
-        <p>
+
+        <h4>
             The "Stack" used:
-        </p>
+        </h4>
         <ul>
             <li>
-                VPS Service : Oracle 
+                VPS Service : Oracle Cloud
             </li>
             <li>
                 Host OS : Ubuntu
@@ -78,8 +74,17 @@
 
         </ul>
         <p>
-            This is the simplest way I could find to set up a website without using an all in one service like WordPress. I am also using git to pull changes from a repository. 
+            This is the simplest way I could find to set up a static website without using an all in one service like WordPress.
+            I am also using git to pull changes from a GitHub repository.
         </p>
+
+        <h4>Challenges</h4>
+        <p>
+            The biggest issue I had while setting up the website was remembering to open up the HTTPS port(443) on the VCN(Virtual Cloud Network) in Oracle Cloud.
+            I had the HTTP port(80) open and was stumped on why it wasn't working for a few hours. After sleeping on it and realizing the problem, It was simple fix.
+        </p>
+
+
     </section>
 
 
